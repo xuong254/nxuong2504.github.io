@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+ 
+  .header {
+    background-color: #FF9999;
+    color: rgb(181, 82, 190);
+    padding: 70px;
+    text-align: center;
+  }
+  
+ 
+  .gioithieu {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .gioithieu a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  .gioithieu a:hover {
+    background-color:#99CCCC;
+    color: #CC99CC;
+  }
+
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    background-color: #ddd ;
+    size:100%;
+  }
+    .column img{
+        width: 200px;
+        height:200px;
+        border-radius: 550px;
+
+   
+  }
+  .colunm a{
+    background-color: #ddd;
+    color:antiquewhite;
+  }
+  
+ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+ 
+
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+
+}
+  .footer{
+    text-align:center;
+    background-color:#ccc;
+    width:100%;
+  }
+  
